@@ -30,22 +30,33 @@ int main(){
 // else{
 //     cout<<"this is not a pelindrome";
 // }
-int number=153;
-int original=number;
-int sum=0;
-  while (number!=0)
-     {
-         int digits= number%10;
-          number=number/10;
-          sum= sum+digits*digits*digits;
-     }
+// int number=153;
+// int original=number;
+// int sum=0;
+//   while (number!=0)
+//      {
+//          int digits= number%10;
+//           number=number/10;
+//           sum= sum+digits*digits*digits;
+//      }
     
-if (sum==original)
-{
-    cout<<"this is a armstrong number";
-}
-else{
-    cout<<"this is not a armstrong number";
-}
+// if (sum==original)
+// {
+//     cout<<"this is a armstrong number";
+// }
+// else{
+//     cout<<"this is not a armstrong number";
+
+
+ int number;
+ 
+ cout << "Enter number: "; 
+cin >> number;
+ for (int i = 1; i<= number; i++) {   
+ 
+cout << i*5 <<endl; 
+ } 
 return 0;
-}
+ }
+
+
