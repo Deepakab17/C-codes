@@ -48,11 +48,11 @@ int main(){
 //     cout<<"this is not a armstrong number";
 
 
- int number;
+ int number1;
  
  cout << "Enter number: "; 
 cin >> number;
- for (int i = 1; i<= number; i++) {   
+ for (int i = 1; i<= number1; i++) {   
  
 cout << i*5 <<endl; 
  } 
