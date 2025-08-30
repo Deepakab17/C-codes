@@ -51,10 +51,10 @@ int main(){
  int number1;
  
  cout << "Enter number: "; 
-cin >> number;
+cin >> number1;
  for (int i = 1; i<= number1; i++) {   
  
-cout << i*5 <<endl; 
+cout << i*123456789 <<endl; 
  } 
 return 0;
  }
