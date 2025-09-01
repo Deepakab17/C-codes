@@ -48,16 +48,44 @@
 // }
 
 
+// #include <iostream>
+// using namespace std;
+
+//  struct base {
+// char a;
+// char c; 
+// int i;      
+// int p;              
+// char b;
+// double f;
+// char
+
+
+
+// };
+// int main(){
+//    cout<< sizeof (base);
+// }
 #include <iostream>
 using namespace std;
-
- struct base {
-char a;
-char c;                     
-char b;
-int i;
-
-};
 int main(){
-   cout<< sizeof (base);
+int number;
+cout<<"enter a number"<<endl;
+cin>>number;
+int i=number;
+int rev=0;
+while(number !=0)
+{
+int digits=number%10;
+rev= rev*10+digits;
+number= number/10;
 }
+if (i==rev)
+{
+cout<<"its a palindrome number";
+}
+else{
+cout<<"its not a palindrome";
+}
+   return 0;
+ } 

@@ -1,7 +1,6 @@
 #include <iostream>
  using namespace std;
  int main(){ 
-int number1=2; 
 int number; 
 int count=0;
 cout<<"enter number";
