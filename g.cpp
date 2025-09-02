@@ -24,5 +24,4 @@ cout<<"not prime";
 }
 
 
-return 0;
-} 
+return 0; 
