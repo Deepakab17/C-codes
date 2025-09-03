@@ -1,7 +1,7 @@
-#include <iostream>
-using namespace std;
+// #include <iostream>
+// using namespace std;
 
-int main(){
+// int main(){
 //     int number=456;
 //     int rev =0;
 //     while (number!=0)
@@ -58,6 +58,7 @@ int main(){
 //  } 
 // return 0;
 //  }
+
 
 
 

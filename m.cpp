@@ -20,22 +20,32 @@
 
 // return 0;
 // }
-#include <iostream>
+// #include <iostream>
+// using namespace std;
+// int main(){
+// int number;
+// cout<<"enter a number";
+// cin>>number;
+// int rev=0;
+// int original=number;
+// for(  ; number>0 ; number=number/10)
+// {
+// int digits= number%10;
+// rev=rev*10+digits; 
+// }
+// if(rev==original)
+// cout<<"palindrome";
+// else
+// cout<<"not a palindrome";
+// return 0;
+// }
+#include <Iostream>
 using namespace std;
 int main(){
-int number;
-cout<<"enter a number";
-cin>>number;
-int rev=0;
-int original=number;
-for(  ; number>0 ; number=number/10)
-{
-int digits= number%10;
-rev=rev*10+digits; 
-}
-if(rev==original)
-cout<<"palindrome";
-else
-cout<<"not a palindrome";
-return 0;
+    int a=10;
+    a*=10;
+    cout<<a;
+
+    return 0;
+
 }

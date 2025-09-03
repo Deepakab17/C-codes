@@ -31,5 +31,5 @@ int main() {
         cout << "this is not a armstrong number"; 
     }
 
-    return 0;
+    return 0; 
 }
