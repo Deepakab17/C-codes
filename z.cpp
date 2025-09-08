@@ -21,20 +21,20 @@
 using namespace std; 
 int main(){
 int units;
-double bill;
+double ;
 cout<<"enter units"<<endl;;
 cin>>units;
 
 if (units<=50){
- bill=units*.50; 
+ =units*.50; 
 }
 else if (units>=51 && units<=150){
- bill=(50*.50)+(units-50)*.75; 
+ =(50*.50)+(units-50)*.75; 
 }
 else{
- bill=(50*.50)+(100*.75)+(units-150)*1.20;
+ =(50*.50)+(100*.75)+(units-150)*1.20;
 }
- cout<<"your total bill is"<<endl<<bill;
+ cout<<"your total  is"<<endl<<;
 
 
 

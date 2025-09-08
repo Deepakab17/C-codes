@@ -23,26 +23,26 @@
 // int unit;
 // cout<<"enter total units"<<endl;
 // cin>>unit;
-// double bill;
+// double ;
 // if (unit<=50){
-// bill=unit*.50;
+// =unit*.50;
 // }
 // else if(unit>50 && unit<=150){
-// bill =(50*.50)+(unit-50)*.75;
+//  =(50*.50)+(unit-50)*.75;
 // }
 // else{
-// bill=(50*.50)+(100*.75)+(unit-150)*1.20;
+// =(50*.50)+(100*.75)+(unit-150)*1.20;
 // }
-// if(bill<50){
-// bill=50;
+// if(<50){
+// =50;
 // }
-// if(bill>300){
-// bill=(bill*.20)+bill;
+// if(>300){
+// =(*.20)+;
 // } 
-// cout<<"total bill for"<< month<<" is" <<" "<<endl<<bill; 
-// total+=bill; 
+// cout<<"total  for"<< month<<" is" <<" "<<endl<<; 
+// total+=; 
 // }
-// cout<<"total yearly bill is"<<endl<<total;
+// cout<<"total yearly  is"<<endl<<total;
  
 // return 0;
 // }
