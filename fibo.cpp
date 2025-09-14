@@ -66,8 +66,8 @@ cin>> number;
 int x=0;
 int y=1;
 int z=0;
-int count=1;
-for(count=1; count<=number; count=count+1)
+
+for( int count=1; count<=number;count++)
 {
 cout<<z;
 x=y;

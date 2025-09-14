@@ -31,26 +31,52 @@
 //     cout<<"HCF is\n"<<hcf;
 //       return 0;
 //     }
+// #include <iostream>
+// using namespace std;
+// int main(){
+// int number;
+// cout<<"enter the number"<<endl;
+// cin>>number;
+// int rev=0;
+// int original=number;
+// while(number!=0)
+// {
+// int digits=number%10;
+// rev=rev*10+digits;
+// number=number/10;
+// }
+// cout<<rev<<" is"<<endl;
+// if (rev==original){
+// cout<<"pelindrome"<<endl;
+// }
+// else{
+// cout<<"not pelindrome";
+// }
+// return 0;
+// }
 #include <iostream>
 using namespace std;
-int main(){
-int number;
-cout<<"enter the number"<<endl;
-cin>>number;
-int rev=0;
-int original=number;
-while(number!=0)
-{
-int digits=number%10;
-rev=rev*10+digits;
-number=number/10;
+
+int main() {
+    string str;
+    cout << "Enter a string: ";
+    cin >> str; 
+    string original=str;
+
+    string rev = "";
+    for (int i = str.length() - 1; i >= 0; i--) {
+        rev =rev+ str[i];
+    }
+
+    cout << "Reversed string: " << rev << endl;
+    if(original==rev){
+        cout<<"string is palindrome"<<endl;
+
+    }
+    else{
+        cout<<"its not palindrome"<<endl;
+    }
+    return 0;
 }
-cout<<rev<<" is"<<endl;
-if (rev==original){
-cout<<"pelindrome"<<endl;
-}
-else{
-cout<<"not pelindrome";
-}
-return 0;
-}
+
+
